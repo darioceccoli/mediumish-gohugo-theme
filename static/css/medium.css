@@ -325,9 +325,10 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
-    font-size: 1.1rem;
-    line-height: 1.84;
+    font-family: "Inter var";
+    font-size: 1.25rem;
+    font-weight: 450;
+    line-height: 1.50;
     color: rgba(0, 0, 0, .8);
 }
 
