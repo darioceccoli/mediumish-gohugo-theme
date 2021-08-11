@@ -26,6 +26,11 @@
 .error{
     text-align: center !important;
 }
+.centerImage{
+    margin: 20px auto 20px auto;
+    width: 50%;
+    border-radius: 50%;
+}
 @media(min-width: 769px){
     .md-nopad-right{
         padding-right: 0px !important;
