@@ -1,14 +1,14 @@
 .index-title{
-    color: rgba(0,0,0,.84);
+    color: rgb(41,41,41);
     margin-top:20px;
 }
 .index-sub{
-    color: rgba(0,0,0,.54);
+    color: rgb(41,41,41);
 
 }
 .index-text{
     margin-top:20px;
-    color: rgba(0,0,0,.44);
+    color: rgb(41,41,41);
 }
 .index-image{
     width: 400px;
