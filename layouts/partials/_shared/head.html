@@ -6,6 +6,7 @@
 	<link rel="icon" href="{{ . | urlize | relURL }}">
 	{{ end }}
 	<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+	<meta content="{{ if .Params.hidden }}noindex{{ else }}index{{ end }}, follow" name="robots">
 	{{ with .Site.Params.meta.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.meta.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 
